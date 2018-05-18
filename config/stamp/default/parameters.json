@@ -12,23 +12,23 @@
             "value": "ubuntu"
         },
         "jumpBoxVmSize": {
-            "value": "Standard_D1_v2"
+            "value": "Standard_D1"
         },
         "mongoVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1"
         },
         "mysqlVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1"
         },
         "frontendVmSize": {
-            "value": "Standard_D2_v2"
+            "value": "Standard_D1"
         },
         "adminUsername": {
             "value": "lexoxaadmin"
         },
-        "adminPublicKey": {
-            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC0iva0zBWdXciUQ221DJdir592H3VBrjnPyVsWUoWhDtg7molNeKWMRibRnnIYBJi7PY8uo9ADglSjqDp+gGObr9BJwyP3+mjk+NwFNrHplVHrD3ihpJepcV9TZySJbcmi5s+fMYqOcJ0fFMr24AKsqRlklFZIuk9mpNXYL5vWdmhEAsEVIsZzXLBdKO9QEYfpRG+ML1p+zpbyeof/xMs9dk9BcI6eBya6jZMZNgOZwTj+QTWMhIfX4qgUNABSevQpnzRixnu0HYzUQIPpIPGCJf+PWy0H1BS5+32041DaILQJc5uQJO0hV4o0lgJrmw6EZLFn6CGVNpk3N8yaFIvUH14JANH1DX7zju99WgbYSEtuQAxf+C+f3guUGNxROC2e5rb9boGAH0nQidaiZEQTpln1bsyJ0jXoSri5jV+AopdkvP58AkhUQty/sP+9LdZ/UC6ghplJkYr/loohEO+MSBhDGdQDD2sedjLONVAsPJLB+ZasnVvdldN+/Bv5ZCGh+uJtYyGI/6jZ1/IMKGulmIZGKYEGi5Bq7S0ThfyTbED03t2V1clM7H3rhjA1VnJp2KzuMZ2SOoZWP4CDIVUvKlxXoiNqqlS4e9pWH6rptgaduuONOUbZeP2eSwqDV5zw1U4pD/Mej8KeKsB5IVrt09OW+NDh5bSA3fclJuaySQ== ericm@DESKTOP-U8HKFDO"
-        },
+      "adminPublicKey": {
+        "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC4/x21ORJeEmDbHGNUqzZGn09tDu3mK30a1ueA56gSyXC56yRZqet9IgjDO2Y4PZFdVKuJT2DrkXO/FfQGpCVO13/cUAaA5wV/ZmcnM0jJN+3jQOBEAJQ3ObLU+ST0I7h5wPljxo1YMiAkhL8m6xYT7+P+O5Si9NKwGXTY07QUqPYE7HADix0J/W5eGh5tvo7sBhUvFjS/5b6wos0Dvh+S8UIl8d8r1TYJW0N2adI86NKq9rdUNhGSsuzkXpWwvhWih5eoZ6aFYXCoWAdDTxonHylOE7FcT55NngHimKUGnTNMe2JKsAmwFBLr1E/blQbJtcs6sjyOf0IN/tiWoM2tS76oCjWJI3FPVoSpuzm/8nuL7a+73pgbaUTG7LhpW/7A0tjbIlfZtlw0LksxYHSd1UPxYDOohG5seL4IY8qW9+wqYZC2WVW+tU8STcLfbJV9y8M+EPr+ibFCNPk9lFqocXMGN9Oi1Uvpffp/qE6vU+ZbzUj75nQELatQayYb3wV6x4JBdGjHB6pun3/HljarigCR3S14PXTbU4wfD2S773dPi0RqRyeUeWM5MhnDa1XQLH9q35xeONEwi2FTBDoKMWk34Du6kqaLovtIsaCXuINVQqjgh3N0kfw4ZjLnUxiEmMIu1KPAvBcVqs2HRQ8WZzeDj9UDlU9pgfx4CanldQ== yungoala@DESKTOP-KC9MMGM"
+      },
         "mongoServerAdminUserName": {
             "value": "oxamongoadmin"
         },
@@ -75,7 +75,7 @@
             "value": 1
         },
         "oxaToolsGithubAccountName": {
-            "value": "iovex"
+            "value": "readingcloud"
         },
         "oxaToolsGithubProjectName": {
             "value": "oxa-tools"
@@ -84,7 +84,7 @@
             "value": "oxa/master.fic"
         },
         "edxConfigurationGithubAccountName": {
-            "value": "iovex"
+            "value": "readingcloud"
         },
         "edxConfigurationGithubProjectName": {
             "value": "edx-configuration"
@@ -93,7 +93,7 @@
             "value": "oxa/master.fic"
         },
         "edxPlatformGithubAccountName": {
-            "value": "iovex"
+            "value": "readingcloud"
         },
         "edxPlatformGithubProjectName": {
             "value": "edx-platform"
@@ -102,7 +102,7 @@
             "value": "oxa/master.fic"
         },
         "edxThemeGithubAccountName": {
-            "value": "iovex"
+            "value": "readingcloud"
         },
         "edxThemeGithubProjectName": {
             "value": "edx-theme"

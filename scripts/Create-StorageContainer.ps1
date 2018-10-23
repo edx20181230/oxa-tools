@@ -82,9 +82,12 @@ $invocation = (Get-Variable MyInvocation).Value
 $currentPath = Split-Path $invocation.MyCommand.Path 
 Import-Module "$($currentPath)/Common.ps1" -Force
 
+# track version of cli to use
+[bool]$isCli2 = ($AzureCliVersion -eq "2")
+
 # Login First & set context
-Authenticate-AzureRmUser -AadWebClientId $AadWebClientId -AadWebClientAppKey $AadWebClientAppKey -AadTenantId $AadTenantId;
-Set-AzureSubscriptionContext -AzureSubscriptionId $AzureSubscriptionId
+Authenticate-AzureRmUser -AadWebClientId $AadWebClientId -AadWebClientAppKey $AadWebClientAppKey -AadTenantId $AadTenantId -IsCli2 $isCli2
+Set-AzureSubscriptionContext -AzureSubscriptionId $AzureSubscriptionId -IsCli2 $isCli2
 
 # Create the container
 [array]$storageContainerList = $StorageContainerNames.Split(",");

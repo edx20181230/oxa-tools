@@ -12,7 +12,7 @@
             "value": "ubuntu"
         },
         "jumpBoxVmSize": {
-            "value": "Standard_D3_v3"
+            "value": "Standard_D3"
         },
         "mongoVmSize": {
             "value": "Standard_D1"

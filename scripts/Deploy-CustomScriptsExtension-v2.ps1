@@ -64,7 +64,7 @@ Param(
         [Parameter(Mandatory=$true)][string]$UpgradeServer,
 
         [Parameter(Mandatory=$true)][string]$ClusterAdmininistratorEmailAddress,
-        [Parameter(Mandatory=$false)][string]$OxaToolsGithubAccountName="readingcloud",
+        [Parameter(Mandatory=$false)][string]$OxaToolsGithubAccountName="edx20181230",
         [Parameter(Mandatory=$false)][string]$OxaToolsGithubProjectName="oxa-tools",
         [Parameter(Mandatory=$false)][string]$OxaToolsGithubBranch="oxa/master.fic",
         [Parameter(Mandatory=$false)][string]$OxaToolsGithubBranchTag="",

@@ -46,11 +46,11 @@ EDXAPP_EMAIL_TECH_SUPPORT="${PLATFORM_EMAIL}"
 EDXAPP_EMAIL_UNIVERSITY="${PLATFORM_EMAIL}"
 
 # config/versions.yml
-CONFIGURATION_REPO=https://github.com/readingcloud/edx-configuration.git
+CONFIGURATION_REPO=https://github.com/edx20181230/edx-configuration.git
 CONFIGURATION_VERSION=oxa/master.fic
-PLATFORM_REPO=https://github.com/readingcloud/edx-platform.git
+PLATFORM_REPO=https://github.com/edx20181230/edx-platform.git
 PLATFORM_VERSION=oxa/master.fic
-THEME_REPO=https://github.com/readingcloud/edx-theme.git
+THEME_REPO=https://github.com/edx20181230/edx-theme.git
 THEME_VERSION=oxa/master.fic
 EDX_VERSION=open-release/ficus.master
 FORUM_VERSION=oxa/master.fic

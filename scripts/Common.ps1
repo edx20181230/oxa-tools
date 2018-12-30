@@ -2072,7 +2072,7 @@ function Get-LatestChanges
        # Here we are assuming git is already installed and installed path has been set in environment path variable.
        # SSh key has to be configured with both github & git bash account to authenticate.
        # Clone TFD Git repository
-       git clone git@github.com:readingcloud/oxa-tools.git -b $BranchName $enlistmentRootPath -q
+       git clone git@github.com:edx20181230/oxa-tools.git -b $BranchName $enlistmentRootPath -q
    }
 
    cd $enlistmentRootPath

@@ -7,7 +7,7 @@
 set -ae
 
 # static strings
-readonly MSFT="readingcloud"
+readonly MSFT="edx20181230"
 readonly EDX="edx"
 readonly USE_MSFT="useMsftRepo"
 readonly TAGS="tags/"

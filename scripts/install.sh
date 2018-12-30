@@ -28,13 +28,13 @@ EDX_CONFIGURATION_PUBLIC_GITHUB_PROJECTBRANCH=""
 
 # EdX Platform
 # There are cases where we want to override the edx-platform repository itself
-EDX_PLATFORM_PUBLIC_GITHUB_ACCOUNTNAME="readingcloud"
+EDX_PLATFORM_PUBLIC_GITHUB_ACCOUNTNAME="edx20181230"
 EDX_PLATFORM_PUBLIC_GITHUB_PROJECTNAME="edx-platform"
 EDX_PLATFORM_PUBLIC_GITHUB_PROJECTBRANCH="oxa/master"
 
 # EdX Theme
 # There are cases where we want to override the edx-platform repository itself
-EDX_THEME_PUBLIC_GITHUB_ACCOUNTNAME="readingcloud"
+EDX_THEME_PUBLIC_GITHUB_ACCOUNTNAME="edx20181230"
 EDX_THEME_PUBLIC_GITHUB_PROJECTNAME="edx-theme"
 EDX_THEME_PUBLIC_GITHUB_PROJECTBRANCH="pilot"
 
